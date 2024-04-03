@@ -84,7 +84,7 @@ a {
     width: 5px;
     height: 5px;
     cursor: pointer;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(45, 44, 44, 0.5);
     margin: 10px 0;
     border-radius: 50%;
     transition: background-color 0.3ms ease 0s;
@@ -106,7 +106,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(246, 241, 241, 0.5);
      cursor: pointer;
 }
 .container {
@@ -188,7 +188,9 @@ a {
 }
 
 .iPhoneImg {
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
 }
 
 .fullscreen_text2_0 {
@@ -204,7 +206,12 @@ a {
     margin-bottom: 10px;
     font-size: 36px;
 }
-
+@media screen and (max-width: 390px) {
+    .fullscreen_title2_1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+}
 .fullscreen_text2_1 {
     margin-bottom: 40px;
 }
